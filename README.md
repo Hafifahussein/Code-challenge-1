@@ -1,16 +1,20 @@
 # 🧠 Week 1 Code Challenge
 This repository contains solutions to three beginner JavaScript coding problems based on real-world Kenyan scenarios. Each challenge is organized into its own folder for clarity and ease of testing.
 
-## 🚀 Challenges
+## 🚀 Description
+The challenges covered include:
 
-### ☕ Chai Bora Ingredient Calculator
+_☕ Chai Bora Ingredient Calculator
 Calculates the required amount of water, milk, tea leaves, and sugar to make a given number of cups of Kenyan chai.
-
-### 🛵 Boda Boda Ride Fare Estimator
+ _ 🛵 Boda Boda Ride Fare Estimator
 Estimates the cost of a boda boda ride based on a base fare and a per-kilometer rate.
 
-### 📱 Mobile Money Fee Estimator
+_ 📱 Mobile Money Fee Estimator
 Calculates a mobile money transaction fee based on 1.5% of the amount, with minimum and maximum limits (KES 10 and KES 70).
+
+### Requirements
+- A modern web browser (Google Chrome, Firefox, etc.)
+- Basic knowledge of using Developer Tools Console
 
 ## 📁 Project Structure
 Code-Challenge-1/
@@ -24,10 +28,11 @@ Code-Challenge-1/
 
 ## ⚙️ How to Use
 
-> These scripts use `prompt()` for input. Run them in a browser console.
-
-1. Open a `.js` file in your browser's Developer Tools console.
-2. Follow the prompt and check the console for results.
+1. Open the repository folder.
+2. Choose a challenge (`chai.js`, `fare.js`, or `fee.js`).
+3. Open the file in your browser's Developer Console (`F12` > Console tab).
+4. Paste the code, hit Enter, and respond to the prompt.
+5. Check the console for output.
 
 ## 👨‍💻 Author
 Hafifa Hussein
