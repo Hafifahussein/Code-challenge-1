@@ -35,7 +35,7 @@ Code-Challenge-1/
 5. Check the console for output.
 
 ## 👨‍💻 Author
-Hafifa Hussein
+Hafifa Hussein.
 
 https://github.com/Hafifahussein/Code-challenge-1
 
