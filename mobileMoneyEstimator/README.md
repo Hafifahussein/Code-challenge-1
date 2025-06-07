@@ -1,5 +1,4 @@
 # 🧠 Week 1 Code Challenge
-
 This repository contains solutions to three beginner JavaScript coding problems based on real-world Kenyan scenarios. Each challenge is organized into its own folder for clarity and ease of testing.
 
 ## 🚀 Challenges
@@ -14,7 +13,14 @@ Estimates the cost of a boda boda ride based on a base fare and a per-kilometer 
 Calculates a mobile money transaction fee based on 1.5% of the amount, with minimum and maximum limits (KES 10 and KES 70).
 
 ## 📁 Project Structure
-
+Code-Challenge-1/
+├── chaiCalculator/ # Chai ingredients calculator
+│ └── chai.js
+├── bodaFareCalculator/ # Boda fare estimator
+│ └── fare.js
+├── mobileMoneyEstimator/ # Mobile money fee calculator
+│ └── fee.js
+└── README.md # Project documentation
 ## ⚙️ How to Use
 
 > These scripts use `prompt()` for input. Run them in a browser console.
@@ -23,8 +29,8 @@ Calculates a mobile money transaction fee based on 1.5% of the amount, with mini
 2. Follow the prompt and check the console for results.
 
 ## 👨‍💻 Author
+Hafifa Hussein
 
-**Your Name**  
 https://github.com/Hafifahussein/Code-challenge-1
 
 ## 🪪 License
