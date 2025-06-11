@@ -1,34 +1,22 @@
-// function calculateBodaFare(distanceInKm) {
-//   const baseFare = 50;
-//   const chargePerKm = 15;
-//   const totalFare = baseFare + (distanceInKm * chargePerKm);
+// Function to calculate Boda Boda fare
+function calculateBodaFare() {
+    // Prompt user for distance
+    let input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?");
+    let distanceInKm = Number(input); // Convert input to number
 
-//   console.log(`Uko kwote? Io ni ${distanceInKm} km:`);
-//   console.log(`Ukikalia Pikipiki: KES ${baseFare}`);
-//   console.log(`Mpaka Uko: KES ${distanceInKm * chargePerKm}`);
-//   console.log(`Total: KES ${totalFare}`);
-//   console.log("\nPanda Pikipiki!");
-// }
+    // Fare components
+    const baseFare = 50;
+    const chargePerKm = 15;
+    const variableFare = distanceInKm * chargePerKm;
+    const totalFare = baseFare + variableFare;
 
-// const input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?:");
-// const distanceInKm = Number(input);
-// calculateBodaFare(distanceInKm);
-
-
-function calculateBodaFare(distanceInKm) {
-  const baseFare = 50; 
-  const chargePerKm = 15; 
-  const totalFare = baseFare + (distanceInKm * chargePerKm); 
-
-  
-  console.log(`Uko kwote? Io ni ${distanceInKm} km:`);
-  console.log(`Ukikalia Pikipiki: KES ${baseFare}`);
-  console.log(`Mpaka Uko: KES ${distanceInKm * chargePerKm}`);
-  console.log(`Total: KES ${totalFare}`);
-  console.log("\nPanda Pikipiki!");
+    // Print breakdown in console
+    console.log(`Uko kwote? Io ni ${distanceInKm} km:`);
+    console.log(`Ukikalia Pikipiki: KES ${baseFare}`);
+    console.log(`Mpaka Uko: KES ${variableFare}`);
+    console.log(`Total: KES ${totalFare}`);
+    console.log(`\nPanda Pikipiki!`);
 }
 
-
-const input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?:");
-const distanceInKm = Number(input); 
-calculateBodaFare(distanceInKm);
+// Call the function
+calculateBodaFare();
